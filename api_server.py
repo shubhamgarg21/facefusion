@@ -918,12 +918,6 @@ async def face_debug(
         raise HTTPException(status_code=500, detail=f"Error processing request: {str(e)}")
 
 if __name__ == "__main__":
-    # Install dependencies if needed
-    #pip install fastapi uvicorn python-multipart
-
-    # Start the server
-    #python api_server.py 
-    
     import uvicorn
     
     # Create necessary directories
